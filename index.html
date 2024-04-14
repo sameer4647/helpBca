@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="loginAccount" id="loginAccountDiv">
+            <h2>Login</h2>
+            <div>
+                <div><label for="emailLogin">Email</label></div>
+                <input type="email" required id="emailLogin" class="emailInputLogin">
+            </div>
+            <div class="password">
+                <div><label for="passwordLogin">Password</label></div>
+                <input type="password" required id="passwordLogin" class="passwordInputLogin">
+            </div>
+            <div class="loginDiv">
+                <button class="login" id="login">Login</button>
+            </div>
+            <p>Don't have account. <span id="createAccountText" class="loginTextStyle">Create Account</span></p>
+        </div>
+        <div class="createAccount" id="createAccountDiv">
+            <h2>Create Account</h2>
+            <div>
+                <div><label for="email">Email</label></div>
+                <input type="email" required id="email" class="emailInput">
+            </div>
+            <div class="password">
+                <div><label for="password">Password</label></div>
+                <input type="password" required id="password" class="passwordInput">
+            </div>
+            <div class="createButtonDiv">
+                <button class="createButton" id="crButton">Create Account</button>
+            </div>
+            <p>Already have account. <span id="loginText" class="loginTextStyle">Login</span></p>
+        </div>
+    </div>
+    <script type="module" src="./index.js"></script>
+</body>
+
+</html>

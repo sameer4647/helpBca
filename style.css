@@ -1,0 +1,35 @@
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.createAccount, .loginAccount {
+    border: 1px #ddd solid;
+    padding: 20px;
+    background-color: #fff;
+    margin-top: 80px;
+}
+.password {
+    padding-top: 20px;
+}
+.createButtonDiv, .loginDiv {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.createButton, .login {
+    padding: 5px 35px;
+    background-color: #f0c14b;
+    border-radius: 5px;
+    border-color: #a88734 #9c7e31 #846a29;
+    border: none;
+}
+.emailInput, .passwordInput, .emailInputLogin, .passwordInputLogin  {
+    height: 20px;
+    margin-top: 5px;
+}
+.loginTextStyle {
+    color: blue;
+    cursor: pointer;
+}
