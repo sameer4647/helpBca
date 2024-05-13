@@ -1,0 +1,32 @@
+h6 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: fit-content;
+    font-size: xx-large;
+    color: blueviolet;
+    padding: 15px;
+    padding-left: 80vh;
+}
+
+h5 {
+    font-size: xx-large;
+    align-content: center;
+    padding: 10px;
+    padding-left: 95vh;
+
+
+
+}
+table{
+    padding: 30px;
+    padding-left: 55vh;
+    
+    
+}
+th{
+    padding-left: 50px;
+    font-style: normal;
+     
+}
+.body{
+    background-image: url(file:///C:/photo/light-bulb-symbol-158224380.html);
+}
